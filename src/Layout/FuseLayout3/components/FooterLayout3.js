@@ -126,8 +126,9 @@ function FooterLayout3(props) {
                   </a>
                 </Grid>
                 <Grid item xs={12} sm={12}>
-                <Typography variant="subtitle2">Jakarta: Jl. Bakung No.23 RT 02/RW 12, Kelapa Dua Wetan, Ciracas, Jakarta Timur</Typography>
-                <Typography variant="subtitle2">Surakarta: Jalan Pracimantoro - Wonogiri RT.001 / RW.005, Mlangse Lor, Tubokarto</Typography>
+                <Typography variant="caption">Jakarta: Jl. Bakung No.23 RT 02/RW 12, Kelapa Dua Wetan, Ciracas, Jakarta Timur</Typography>
+                <br />
+                <Typography variant="caption">Surakarta: Jalan Pracimantoro - Wonogiri RT.001 / RW.005, Mlangse Lor, Tubokarto</Typography>
                 </Grid>
               </Grid>
             </Grid>
