@@ -67,6 +67,7 @@
     "start": "yarn run tailwind && craco start",
     "build": "yarn run tailwind && craco build",
     "test": "craco test",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "deploy": "yarn run netlify-deploy",
     "vercel-deploy": "vercel",
     "netlify-init": "netlify init",
@@ -96,6 +97,7 @@
     "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
     "@types/loadable__component": "^5.10.0",
+    "@types/lodash": "^4.14.164",
     "@types/react": "^16.9.35",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-config": "^5.0.1",
@@ -110,6 +112,7 @@
     "netlify-cli": "^2.51.0",
     "purgecss": "^2.2.1",
     "semantic-release": "^17.0.7",
+    "source-map-explorer": "^2.5.0",
     "tailwindcss": "^1.4.6",
     "tailwindcss-dir": "^4.0.0",
     "vercel": "^19.0.1"
