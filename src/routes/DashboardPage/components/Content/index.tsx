@@ -10,6 +10,7 @@ import Tech from "./Layanan/Tech";
 import Invest from "./Layanan/Invest";
 import Liburan from "./Layanan/Liburan";
 import Other from "./Layanan/Other";
+import Others from "./Layanan/Others";
 import Member from "./Dvisi/Member";
 import useStyles from "./styles";
 
@@ -67,6 +68,9 @@ const ContentComponent = (props: ContentComponentProps) => {
                 </Grid>
                 <Grid item xs={6} sm={3}>
                   <Other />
+                </Grid>
+                <Grid item xs={6} sm={3}>
+                  <Others/>
                 </Grid>
               </Grid>
             </div>

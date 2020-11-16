@@ -11,7 +11,7 @@ const Fashion = (props: any) => {
 				<Icon className="text-72">style</Icon>
 				</Typography>
 				<Typography className="text-16" color="textSecondary">
-					Fashion
+				<a href="">Fashion</a>	
 				</Typography>
 			</div>
 		</Paper>
